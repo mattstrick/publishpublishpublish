@@ -1,7 +1,7 @@
 
 import { signIn } from "@/auth"
  
-export default function SignIn() {
+export default function TikTokSignIn() {
   return (
     <form
       action={async () => {
@@ -9,7 +9,7 @@ export default function SignIn() {
         await signIn("tiktok")
       }}
     >
-      <button type="submit">Signin with TikTok</button>
+      <button type="submit">Signin</button>
     </form>
   )
 } 
