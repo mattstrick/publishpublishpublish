@@ -6,6 +6,7 @@ export default function Footer() {
         <ul>
             <li><a href="https://github.com/mattstrick/publishpublishpublish">Github</a></li>
             <li><Link href={'/terms-of-service'}>Terms of Service</Link></li>
+            <li><Link href={'/privacy-policy'}>Privacy Policy</Link></li>
         </ul>
       </footer>
   );
